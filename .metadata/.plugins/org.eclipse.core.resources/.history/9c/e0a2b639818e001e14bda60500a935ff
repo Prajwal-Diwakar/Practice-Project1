@@ -1,0 +1,5 @@
+package com.accessmodifier;
+
+public class public_access_modifier {
+
+}

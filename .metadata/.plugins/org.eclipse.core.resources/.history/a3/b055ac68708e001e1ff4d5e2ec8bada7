@@ -1,0 +1,11 @@
+package com.practice.typecasting;
+
+public class Implicit_type_casting {
+     public static void main(String[] args) {
+    	 //implicit type casting
+    	 //byte-shirt-int-long-float-double
+    	 
+    	 System.out.println("Implicit_type_casting");
+    	 
+     }
+}

@@ -1,0 +1,27 @@
+package com.assisted.practice;
+
+public class inheritance {
+		public void methodinheritance()
+				{
+			System.out.println("Base class is A");
+				}
+	}
+	
+	class B extends inheritance{
+		public void methodB() 
+		{
+		System.out.println("child class method is B");
+		}
+			
+	
+		public static void main(String args[]) 
+		{
+		
+			B obj=  new B();
+				obj.methodinheritance();
+				obj.methodB();
+		}
+}
+	
+	
+

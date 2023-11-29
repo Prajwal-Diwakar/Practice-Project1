@@ -1,0 +1,12 @@
+package com.packages;
+import com.accessmodifier.*;
+
+public class modifier {
+	
+	public void display() 
+    { 
+        System.out.println("This is Public Access Specifiers"); 
+    } 
+
+
+}

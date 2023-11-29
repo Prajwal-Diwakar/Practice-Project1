@@ -1,0 +1,53 @@
+package com.assisted.practice;
+
+//Java program to illustrate the
+//concept of Hierarchical  inheritance
+
+class A {
+	
+	public void methodA(){
+		System.out.println("class 1");
+	}
+}
+
+class B extends A {
+	
+	public void methodB(){
+		System.out.println("class 2");
+	}
+}
+
+class C extends A {
+	
+	public void methodC(){
+		System.out.println("class 3");
+	}
+}
+
+class D extends A {
+	
+	public void methodD(){
+		System.out.println("class 4");
+	}
+}
+
+//Driver Class
+public class hierarchical_inheritance {
+	
+	public static void main(String[] args) {
+		
+		B obj_B=new B();
+		obj_B.methodA();
+		obj_B.methodB();
+		
+		C obj_C=new C();
+		obj_C.methodA();
+		obj_C.methodC();
+		
+		D obj_D=new D();
+		obj_D.methodA();
+		obj_D.methodD();
+		
+	}
+
+}

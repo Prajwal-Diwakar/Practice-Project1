@@ -1,0 +1,15 @@
+package com.packages;
+import com.accessmodifier.*;
+
+public class modifier {
+	
+public static void main(String[] args) {
+		
+	
+        default_access_modifier1 obj= new default_access_modifier1();
+		obj.display();
+		
+	}
+
+
+}
