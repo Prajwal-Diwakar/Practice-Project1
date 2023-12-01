@@ -28,6 +28,9 @@ public class stack_list {
 		listOfstates.add("uttar pradesh");
 
 		// print list
+		
+		
+	
 		System.out.println(listOfstates);
 
 		// print index 3 value

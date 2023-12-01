@@ -19,7 +19,7 @@ public class student_set {
 		// add student object
 		studentSet.add(new student(1000, "Suresh", 45000));
 		studentSet.add(new student(1001, "Jeeva", 400233));
-		studentSet.add(new student(1002, "Leo", 78000));
+		studentSet.add(new student(1002, "leo", 78000));
 		studentSet.add(new student(1003, "Rolex", 56566));
 		
 		System.out.println(studentSet);
