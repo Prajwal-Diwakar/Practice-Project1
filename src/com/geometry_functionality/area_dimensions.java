@@ -1,4 +1,4 @@
-package geometry_functionality;
+package com.geometry_functionality;
 
 import java.util.ArrayList;
 
