@@ -1001,3 +1001,7 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact javax.servlet
 2023-12-05 14:30:19,253 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Dell\eclipse-workspace\Phase1_JDBC_webapp_04-12-2023\src\main\resources
 2023-12-05 14:30:19,262 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-12-05 14:30:19,264 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Dell\eclipse-workspace\Phase1_JDBC_webapp_04-12-2023\src\test\resources
+2023-12-05 14:34:08,542 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-05 14:34:08,544 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Dell\eclipse-workspace\Phase1_JDBC_webapp_04-12-2023\src\main\resources
+2023-12-05 14:34:08,550 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-05 14:34:08,552 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Dell\eclipse-workspace\Phase1_JDBC_webapp_04-12-2023\src\test\resources
