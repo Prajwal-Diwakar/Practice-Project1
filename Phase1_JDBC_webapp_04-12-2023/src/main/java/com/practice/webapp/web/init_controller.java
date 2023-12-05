@@ -20,9 +20,9 @@ public class init_controller extends HttpServlet{
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 		
-		DatabaseConnection connection = new DatabaseConnection();
+
 		
-		connection.jdbcOperation();
+	
 		
 		out.print("<h3>Connection Estanlised.</h3>");
 	}
