@@ -6,7 +6,9 @@
 	<packaging>war</packaging>
 	<name>phase1-jdbc-webapp-04-12-2023</name>
 	<description>phase1-jdbc-webapp-04-12-2023</description>
-
+	
+	
+	
 	<dependencies>
 
 		<!-- mysql-connector-java -->
@@ -15,15 +17,11 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.33</version>
 		</dependency>
+		
+		
 
 		<!-- javax.servlet-api -->
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>4.0.1</version>
-			<scope>provided</scope>
-		</dependency>
-
+		
 		<!-- javax.servlet.jsp-api -->
 		<dependency>
 			<groupId>javax.servlet.jsp</groupId>
@@ -40,7 +38,15 @@
 			<scope>test</scope>
 		</dependency>
 
-	</dependencies>
+	
+    <!-- Other dependencies -->
+    <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>3.0.1</version>
+        <scope>provided</scope>
+    </dependency>
+</dependencies>
 
 	<build>
 		<plugins>

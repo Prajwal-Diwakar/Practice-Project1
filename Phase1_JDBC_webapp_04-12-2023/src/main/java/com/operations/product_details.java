@@ -17,19 +17,19 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.practice.webapp.db.DatabaseConnection;
+import com.practice.webapp.db.DBConnection;
 
 /**
-* Servlet implementation class DBOperations
+* Servlet implementation class ProductDetails
 */
-@WebServlet("/DBOperations")
-public class DBOperations extends HttpServlet {
+@WebServlet("/ProductDetails")
+public class product_details extends HttpServlet {
         private static final long serialVersionUID = 1L;
        
     /**
 * @see HttpServlet#HttpServlet()
 */
-    public DBOperations() {
+    public product_details() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -49,21 +49,14 @@ public class DBOperations extends HttpServlet {
                         props.load(in);
                         
                         
-                        DatabaseConnection conn = new DatabaseConnection(props.getProperty("url"), props.getProperty("userid"), props.getProperty("password"));
-                        Statement stmt = conn.getConnection().createStatement();
-                        stmt.executeUpdate("create database mydatabase");
-                        out.println("Created database: mydatabase<br>");
-                        stmt.executeUpdate("use mydatabase");
-                        out.println("Selected database: mydatabase<br>");
-                        stmt.executeUpdate("drop database mydatabase");
+                        DBConnection conn = new DBConnection(props.getProperty("url"), props.getProperty("userid"), props.getProperty("password"));
+                        CallableStatement stmt = conn.getConnection().prepareCall("{call add_product(?, ?)}");
+                        stmt.setString(1, "new product");
+                        stmt.setBigDecimal(2, new BigDecimal(1900.50));
+                        stmt.executeUpdate();
+                        
+                        out.println("Stored procedure has been executed.<Br>");
                         stmt.close();
-                        out.println("Dropped database: mydatabase<br>");
-                        
-                        
-                        
-                        
-                        
-                        conn.closeConnection();
                         
                         
                         out.println("</body></html>");

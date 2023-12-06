@@ -17,5 +17,44 @@
     <servlet-name>DBOperations</servlet-name>
     <url-pattern>/dboperations</url-pattern>
   </servlet-mapping>
-  
+  <servlet>
+    <description></description>
+    <display-name>product_details</display-name>
+    <servlet-name>product_details</servlet-name>
+    <servlet-class>com.operations.product_details</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>product_details</servlet-name>
+    <url-pattern>/product_details</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>add_transac1</display-name>
+    <servlet-name>add_transac1</servlet-name>
+    <servlet-class>com.operations.add_transac1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>add_transac1</servlet-name>
+    <url-pattern>/add_transac1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>productservlet</display-name>
+    <servlet-name>productservlet</servlet-name>
+    <servlet-class>com.operations.productservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>productservlet</servlet-name>
+    <url-pattern>/productservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>product_details_practice</display-name>
+    <servlet-name>product_details_practice</servlet-name>
+    <servlet-class>com.operations.product_details</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>product_details_practice</servlet-name>
+    <url-pattern>/product_details_practice</url-pattern>
+  </servlet-mapping>
 </web-app>
