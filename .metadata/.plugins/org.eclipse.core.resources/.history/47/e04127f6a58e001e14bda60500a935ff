@@ -1,9 +1,0 @@
-package com.assisted.practice;
-
-public class inheritance {
-	class A{
-		public void methodA() {
-			System.out.println("Base class is A");
-		}
-	}
-}

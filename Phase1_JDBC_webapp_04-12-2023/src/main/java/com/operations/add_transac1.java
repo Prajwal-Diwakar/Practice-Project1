@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.practice.webapp.db.DatabaseConnection;
+import com.practice.webapp.db.DatabaseConnection3;
 
 /**
  * Servlet implementation class AddProduct
@@ -54,11 +54,11 @@ public class add_transac1 extends HttpServlet {
 		String productDec3 = request.getParameter("product_desc3");
 		String productPrice3 = request.getParameter("product_price3");
 		
-		DatabaseConnection db = null;
+		DatabaseConnection3 db = null;
 		
 		try {
 			// step 1: create connection
-			db = new DatabaseConnection();
+			db = new DatabaseConnection3();
 			Connection connection = db.init();
 			
 			// start a trasaction 
