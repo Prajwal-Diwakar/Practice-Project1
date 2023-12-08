@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.practice.webapp.db.DatabaseConnection;
+import com.practice.webapp.db.DatabaseConnection3;
 
 @WebServlet("/init-connection")
 public class init_controller extends HttpServlet{

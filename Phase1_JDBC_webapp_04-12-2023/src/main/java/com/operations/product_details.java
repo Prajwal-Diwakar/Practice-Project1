@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.practice.webapp.db.DBConnection;
+import com.practice.webapp.db.DatabaseConnection3;
 
 /**
 * Servlet implementation class ProductDetails
@@ -49,7 +49,7 @@ public class product_details extends HttpServlet {
                         props.load(in);
                         
                         
-                        DBConnection conn = new DBConnection(props.getProperty("url"), props.getProperty("userid"), props.getProperty("password"));
+                        DatabaseConnection3 conn = new DatabaseConnection3(props.getProperty("url"), props.getProperty("userid"), props.getProperty("password"));
                         CallableStatement stmt = conn.getConnection().prepareCall("{call add_product(?, ?)}");
                         stmt.setString(1, "new product");
                         stmt.setBigDecimal(2, new BigDecimal(1900.50));
