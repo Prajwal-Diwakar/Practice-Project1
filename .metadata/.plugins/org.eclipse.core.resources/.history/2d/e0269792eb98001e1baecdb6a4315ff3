@@ -1,0 +1,20 @@
+package com.practiceExternalwebHandling;
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
+
+public class Iframes {
+	static EdgeOptions options;
+	static WebDriver driver = null;
+	public static void main (String []args) {
+		String path = "drivers/msedgedriver.exe";
+		System.setProperty("webdriver.edge.driver",path);
+		driver = new EdgeDriver();
+		driver.get("https://www.w3schools.com/html/html_iframe.asp");
+		driver.switchTo().frame(0);
+		driver.findElement(By.xpath("//*[@id=\"subtopnav\"]/a[2]")).click();
+	}
+}
