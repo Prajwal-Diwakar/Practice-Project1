@@ -1,0 +1,53 @@
+package com.selenium.practice;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class alert {
+	  static WebDriver driver;
+	public static void main (String[] args) {
+		
+		alertsetup();
+		
+		alert1();
+	}
+	
+	public static void alertsetup() {
+		//step1: create the siteurl and driverpath
+		
+		String siteURL= "file:///C:/Users/Dell/eclipse-workspace/phase1-selenium-test-06-12-2023/static/alert.html";
+		String driverpath= "drivers//windows//chromedriver.exe";
+		
+		//step2: set system properties for selenium driver
+		System.setProperty("webdriver.chromedriver.exe" , driverpath);
+		
+		// step3: instantiate selenium webdriver
+				driver = new ChromeDriver();
+				
+				// step5: launch browser
+				driver.get(siteURL);
+		
+		}
+	
+	
+	public static void alert1() throws InterruptedException {
+		
+		driver.findElement(By.cssSelector("body > p:nth-child(2) > button")).click();
+		
+		Thread.sleep(2000);
+		
+		
+		alert.accept();
+		
+		Alert alert = driver.switchTo().alert();
+	}
+
+	private static void accept() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

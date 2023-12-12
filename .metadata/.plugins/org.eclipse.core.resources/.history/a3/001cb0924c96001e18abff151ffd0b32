@@ -1,0 +1,24 @@
+package com.selenium.practice;
+
+public class data_timeTest {
+	
+	public static void main(String[] args) {
+		
+		data_time_setup();
+		data_timeExists();
+	}
+	
+	public static void data_time_setup() {
+		
+		String siteURL= "file:///C:/Users/Dell/eclipse-workspace/phase1-selenium-test-06-12-2023/static/webElements_practice.html";
+		String driverpath= "drivers//windows//chromedriver.exe";
+		
+		
+	}
+	
+	public static void data_timeExists() {
+		
+		
+	}
+
+}

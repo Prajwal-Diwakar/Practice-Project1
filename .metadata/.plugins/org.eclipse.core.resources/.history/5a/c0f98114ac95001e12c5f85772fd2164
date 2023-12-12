@@ -1,0 +1,22 @@
+package com.selenium.practice;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class radiobutton_test {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+		
+	public static void setup() {   //  static  method to create object to a class
+		
+		String url= "C:\Users\Dell\eclipse-workspace\phase1-selenium-test-06-12-2023\static\webElements_practice.html";
+		String 
+	}
+}

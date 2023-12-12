@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Dell\Documents\selenium_practice\Project-JUnit"/>
+			<item value="C:\Users\Dell\Documents\selenium_practice\SeleniumBasicsDemo"/>
+			<item value="C:\Users\Dell\eclipse-workspace\phase1-jdbc-webapp-04-12-2023"/>
+			<item value="C:\Users\Dell\eclipse-workspace\phase1-selenium-test-06-12-2023"/>
+			<item value="C:\Users\Dell\eclipse-workspace\Phase1_JDBC_webapp_04-12-2023"/>
+			<item value="C:\Users\Dell\eclipse-workspace\phase_java_project_2"/>
+		</list>
+	</section>
+</section>

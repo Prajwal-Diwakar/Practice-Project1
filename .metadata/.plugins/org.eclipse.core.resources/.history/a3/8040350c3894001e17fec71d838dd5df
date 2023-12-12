@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Lookup</title>
+</head>
+<body>
+    <h2>Product Lookup</h2>
+    <form action="ProductServlet" method="post">
+        <label for="productId">Enter Product ID:</label>
+        <input type="text" id="productId" name="productId" required>
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>

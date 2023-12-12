@@ -1,0 +1,18 @@
+package com.selenium.practice;
+
+
+public class checkbox_test {
+		
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+	public static void setup() {
+		
+		String siteURL= "file:///C:/Users/Dell/eclipse-workspace/phase1-selenium-test-06-12-2023/static/webElements_practice.html";
+		String driverPath = "drivers/windows/chromedriver.exe";
+	}
+}

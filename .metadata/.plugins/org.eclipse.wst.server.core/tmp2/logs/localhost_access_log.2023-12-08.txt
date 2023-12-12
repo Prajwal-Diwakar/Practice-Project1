@@ -1,0 +1,8 @@
+127.0.0.1 - - [08/Dec/2023:17:27:00 +0530] "GET / HTTP/1.1" 404 752
+127.0.0.1 - - [08/Dec/2023:17:29:43 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [08/Dec/2023:17:29:43 +0530] "GET /Phase1_JDBC_webapp_04-12-2023/WEB-INF/classes/com/practice/webapp/db/DBConnection.java HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [08/Dec/2023:17:36:27 +0530] "GET /Phase1_JDBC_webapp_04-12-2023/WEB-INF/classes/com/practice/webapp/db/DatabaseConnection2.java HTTP/1.1" 404 683
+127.0.0.1 - - [08/Dec/2023:17:49:09 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [08/Dec/2023:17:49:10 +0530] "GET /Phase1_JDBC_webapp_04-12-2023/ HTTP/1.1" 404 786
+0:0:0:0:0:0:0:1 - - [08/Dec/2023:17:50:45 +0530] "GET /Phase1_JDBC_webapp_04-12-2023/WEB-INF/classes/com/practice/webapp/db/DBConnection.java HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [08/Dec/2023:17:52:11 +0530] "GET /Phase1_JDBC_webapp_04-12-2023/ HTTP/1.1" 404 786

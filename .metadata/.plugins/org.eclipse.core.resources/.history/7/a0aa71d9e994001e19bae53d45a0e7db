@@ -1,0 +1,35 @@
+package com.selenium.practice;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class flipkartSearchTest {
+	
+	public static void main(String[] args) {
+		// step1: formulate a test domain url & driver path
+		
+		String URL= "https://www.flipkart.com/";
+		String webpath="drivers/windows/chromedriver.exe";
+		
+		// step2: set system properties for selenium dirver
+		System.setProperty("webdriver.chrome.driver", webpath);
+		
+		// step3: instantiate selenium webdriver
+				WebDriver launch = new ChromeDriver();
+				
+				// step4: launch browser
+				launch.get(URL);
+				
+				// step5 : Evaluate the Test
+				
+				
+				
+	}
+	
+	private static void testSearch1() throws InterruptedException {
+
+		WebElement searchBox = launch.findElement(By.id("otracker"));
+}	

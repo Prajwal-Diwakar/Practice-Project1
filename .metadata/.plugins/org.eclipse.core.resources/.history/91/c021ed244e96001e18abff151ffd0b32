@@ -1,0 +1,39 @@
+package com.selenium.practice;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class data_timeTest {
+	
+	static WebDriver driver;
+	
+	public static void main(String[] args) {
+		
+		data_time_setup();
+		data_timeExists();
+		
+	}
+	
+	public static void data_time_setup() {
+		//step1: create the siteurl and driverpath
+		
+		String siteURL= "file:///C:/Users/Dell/eclipse-workspace/phase1-selenium-test-06-12-2023/static/webElements_practice.html";
+		String driverpath= "drivers//windows//chromedriver.exe";
+		
+		//step2: set system properties for selenium driver
+		System.setProperty("webdriver.chromedriver.exe" , driverpath);
+		
+		// step3: instantiate selenium webdriver
+				driver = new ChromeDriver();
+				
+				// step5: launch browser
+				driver.get(siteURL);
+		
+		}
+	
+	public static void data_timeExists() {
+		
+		
+	}
+
+}

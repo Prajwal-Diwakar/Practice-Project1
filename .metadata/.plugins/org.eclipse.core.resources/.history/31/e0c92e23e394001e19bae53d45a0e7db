@@ -1,0 +1,24 @@
+package com.selenium.practice;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class chrome_launching {
+	
+	public static void main(String[] args) {
+		// setting the url and webdriver path
+		
+		String URL= "https://www.google.com/";
+		String webpath="drivers/windows/chromedriver.exe";
+		
+		
+		System.setProperty("webdriver.chrome.driver", webpath);
+		
+		// step3: instantiate selenium webdriver
+				WebDriver driver = new ChromeDriver();
+				
+				
+		
+	}
+}
