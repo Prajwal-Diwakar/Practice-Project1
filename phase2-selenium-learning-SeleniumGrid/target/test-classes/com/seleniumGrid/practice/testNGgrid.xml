@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  
+<suite name="griddemos" verbose="1" parallel="true" thread-count="2">
+  <test name="Girddemo-standAlone" >
+    <classes>
+       <class name="com.seleniumGrid.practice.standalone"/>
+       <class name= "com.seleniumGrid.practice.HUBandNODE"/>
+     
+    </classes>
+  </test>
+</suite>
