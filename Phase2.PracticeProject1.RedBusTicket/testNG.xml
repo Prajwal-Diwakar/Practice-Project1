@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="WebAutomationSuiteRedbus" parallel="tests" thread-count="2">
+    <test name="ChromeTest">
+        <classes>
+            <class name="com.phase2projectRedBusTicket.com.RedBusTest">
+            
+                <methods>
+                    <include name="chrome" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="FireFoxTest">
+        <classes>
+            <class name="com.phase2projectRedBusTicket.com.RedBusTest">
+                <methods>
+                    <include name="FirefoxTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

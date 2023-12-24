@@ -8,6 +8,18 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Dell\eclipse-workspace\-phase-selenium-listeners-19-12-2023"/>
+			<item value="C:\Users\Dell\eclipse-workspace\phase2-selenium-data-driven-test-19-12-2023"/>
+			<item value="C:\Users\Dell\eclipse-workspace\ATE-Pahse2-POMFramwork-Project"/>
+			<item value="C:\Users\Dell\eclipse-workspace\SeleniumGrid"/>
+			<item value="C:\Users\Dell\eclipse-workspace\phase2-selenium-learning-exercises"/>
+			<item value="C:\Users\Dell\eclipse-workspace\phase2-selenium-testng-extent-reports-15-12-2023"/>
+			<item value="C:\Users\Dell\eclipse-workspace\phase2-selenium testng-learning-exercises"/>
+			<item value="C:\Users\Dell\eclipse-workspace\phase2-selenium-testng-14-12-2023"/>
+			<item value="C:\Users\Dell\eclipse-workspace\phase1-final-assessment-project"/>
+			<item value="C:\Users\Dell\eclipse-workspace\JDBC_Practice_Project1"/>
+			<item value="C:\Users\Dell\eclipse-workspace\phase1-Final-Assessment-Project"/>
+			<item value="C:\Users\Dell\eclipse-workspace\phase1-Final Assessment Project"/>
 			<item value="C:\Users\Dell\eclipse-workspace\phase1-selenium-sikuli-12-12-2023"/>
 			<item value="C:\Users\Dell\Documents\selenium_practice\Project-JUnit"/>
 			<item value="C:\Users\Dell\Documents\selenium_practice\SeleniumBasicsDemo"/>
@@ -23,5 +35,19 @@
 		<item key="DIALOG_WIDTH" value="525"/>
 		<item key="DIALOG_HEIGHT" value="580"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Dell\eclipse-workspace\-phase-selenium-listeners-19-12-2023"/>
+			<item value="C:\Users\Dell\eclipse-workspace\ATE-Pahse2-POMFramwork-Project"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
 	</section>
 </section>
