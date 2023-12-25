@@ -36,5 +36,11 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="C:/Users/Dell/Documents/Eclipse/eclipse/plugins/junit-jupiter-params_5.10.0.jar" sourcepath="C:/Users/Dell/Documents/Eclipse/eclipse/plugins/junit-jupiter-params.source_5.10.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://junit.org/junit5/docs/current/api/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
