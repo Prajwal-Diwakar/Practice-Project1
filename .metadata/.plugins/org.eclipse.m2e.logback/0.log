@@ -16255,3 +16255,5 @@ org.eclipse.core.runtime.CoreException: Launch configuration standalone referenc
 2023-12-26 17:26:05,424 [Worker-46: Launching testMetaAnnotations2] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
 2023-12-26 17:26:23,638 [Worker-41: Launching testMetaAnnotations2] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2023-12-26 17:26:23,643 [Worker-41: Launching testMetaAnnotations2] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 18:07:32,485 [Worker-4: Launching Phase2_Learning.junit.practice_22_12_2023] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 18:07:32,506 [Worker-4: Launching Phase2_Learning.junit.practice_22_12_2023] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
