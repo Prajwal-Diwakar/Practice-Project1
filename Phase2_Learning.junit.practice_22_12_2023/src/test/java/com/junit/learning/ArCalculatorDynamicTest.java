@@ -13,9 +13,9 @@ import com.learning.junit.practice.ArCalculator;
 
 public class ArCalculatorDynamicTest {
 	
-	private ArCalculator arCalculator=new ArCalculator();
+	private ArCalculator arCalculator=new ArCalculator(); //instantiate
 	
-	double [][] testCases1= {{10, 2, 5}, {12, 3, 4}, {8, 4, 2}, {56, 7, 8}};
+	double [][] testCases1= {{10, 2, 5}, {12, 3, 4}, {8, 4, 2}, {56, 7, 8}};  // objects created
 	int [][]    testCases2= {{2, 6, 12} , {4, 3, 12}, {5,7, 35}};
 	
 	int [][]    testCases3= {{2, 6, 8} , {4, 3, 7}, {5,7, 12}};
@@ -24,7 +24,7 @@ public class ArCalculatorDynamicTest {
 	
 	@TestFactory
 	
-	public DynamicTest testDivision() {
+	public DynamicTest testDivision() {        // method
 		
 		return DynamicTest.dynamicTest("Test divide", ()->{
 			

@@ -92,11 +92,6 @@ public class assertionsPractice {
 					() -> assertEquals(numbers[3], 3));
 			assertAll("Numbers", ()-> assertEquals(numbers[3],3), ()-> assertEquals(numbers[1], 70), 
 					()-> assertEquals(numbers[2],20 ));
-		}
-
-		
-		
-		
-		
+		}		
 
 }

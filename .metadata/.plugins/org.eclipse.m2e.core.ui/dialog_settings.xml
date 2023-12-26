@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Dell\eclipse-workspace\Phase2_Learning.junit.practice_22_12_2023\src\test\java\com\junit\learning\unitclassExtends\MegaAnnotationsFast.java"/>
+			<item value="C:\Users\Dell\eclipse-workspace\Phase2_Learning.junit.practice_22_12_2023\src\test\java\com\junit\learning\RetirementCalculator.java"/>
 			<item value="C:\Users\Dell\eclipse-workspace\Phase2.PracticeProject.Ecommerce\src\main\java\com\practice\stockcheck\StockCountCheck.java"/>
 			<item value="C:\Users\Dell\eclipse-workspace\ATE-Pahse2-POMFramwork-Project"/>
 			<item value="C:\Users\Dell\eclipse-workspace\phase1_java_fundamentals_29_11_2023\src\com\accessmodifier\public_access_modifier.java"/>
@@ -28,16 +30,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="Phase2.PracticeProject3.ElearningApp_TDD_TestNG.Phase2.PracticeProject3.ElearningApp_TDD_TestNG"/>
-			<item value="com.learning.junit.practice.com.learning.junit.practice"/>
 		</list>
 		<list key="groupId">
-			<item value="Phase2.PracticeProject3.ElearningApp_TDD_TestNG"/>
-			<item value="com.learning.junit.practice"/>
 		</list>
 		<list key="artifactId">
-			<item value="Phase2.PracticeProject3.ElearningApp_TDD_TestNG"/>
-			<item value="com.learning.junit.practice"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

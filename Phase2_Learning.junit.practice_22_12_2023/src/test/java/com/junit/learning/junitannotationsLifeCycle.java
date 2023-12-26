@@ -12,25 +12,25 @@ import org.junit.jupiter.api.Test;
 public class junitannotationsLifeCycle {
 	
 	
-	//JUNIT Fixture
+	         //JUNIT Fixtures and its operations
 	
-	@BeforeEach
+	@BeforeEach           // executed before every method
 	public void setup() {
 		System.out.println(" Before each is executed");
 	}
-	@AfterEach
+	@AfterEach                 // executed after every method
 	
 	public void cleaup() {
 		System.out.println(" After each is executed");
 	}
 	
-	@BeforeAll
+	@BeforeAll                // executed before once all method executed
 	public static void setupAll(){
 		System.out.println(" Before all is executed");
 		
 	}
 	
-	@AfterAll
+	@AfterAll                  // executed after  once all method executed
 	public static void cleanAll(){
 		System.out.println(" Before all is executed");
 		

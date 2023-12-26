@@ -3,12 +3,13 @@ package com.junit.learning;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import com.learning.junit.practice.ArCalculator;
 
 public class ArCalculatorParameterizedTest {
 	
-	private ArCalculator arCalculator=new  ArCalculator();
+	private ArCalculator arCalculator=new  ArCalculator(); // instantiate
 	
 	
 	
@@ -37,5 +38,17 @@ public class ArCalculatorParameterizedTest {
 		void substractionWithParameters(int num1, int num2 , int aResult) {
 			assertEquals(aResult, arCalculator.sub(num1, num2));
 		}	
+		
+		@ParameterizedTest(name = "Test Division2 - {index} :: {0} / {1}  = {2}")
+		@CsvSource(value = { "10, 0 , 5"}, ignoreLeadingAndTrailingWhitespace = true)
+		void testDivision2WithParameters(double dividend, double divisor) {
+			
+			assertThrows(IllegalArgumentException.class, () ->{ // to cover the full coverage in the 
+				                                                // ArCalculator java class
+				
+			arCalculator.divide(dividend, divisor);
+			});
+			
+		}
 
 }

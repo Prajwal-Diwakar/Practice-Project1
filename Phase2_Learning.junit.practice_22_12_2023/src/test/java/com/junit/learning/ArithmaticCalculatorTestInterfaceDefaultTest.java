@@ -31,7 +31,7 @@ public class ArithmaticCalculatorTestInterfaceDefaultTest {
 		
 		ArithmaticCalculatorTestInterfaceDefault arithmaticCalculator =new ArithmaticCalculatorTestInterfaceDefault() {
 
-		@Override                    // in order to do the default methods overriding the abstrat method
+		@Override                    // in order to do the default methods overriding the abstract method
 		public int add(int num1, int num2) {
 			return num1 +num2;
 		}

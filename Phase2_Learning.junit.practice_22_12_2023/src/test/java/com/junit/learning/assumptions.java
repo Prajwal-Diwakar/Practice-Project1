@@ -40,9 +40,9 @@ public class assumptions {
 	@Test
 	public void testInAllEnvs() {
 		             // setting an system property as ENV key.
-		System.setProperty("ENV", "DEV");
+		System.setProperty("HII", "HELLO");
 		
-		assumingThat("DEV".equals(System.getProperty("ENV")), ()-> {
+		assumingThat("HELLO".equals(System.getProperty("HII")), ()-> {
 			            // perform these assertions only on the DEV 
 			assertEquals(32, Calculator.calculateAge1(1992));
 		});

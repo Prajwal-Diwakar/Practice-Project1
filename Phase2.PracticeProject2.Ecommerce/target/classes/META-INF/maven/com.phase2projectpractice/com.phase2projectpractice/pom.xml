@@ -81,7 +81,12 @@
 			<version>4.1.7</version>
 		</dependency>
 
-	</dependencies>
+		<dependency>
+			<groupId>com.learning.junit.practice</groupId>
+			<artifactId>com.learning.junit.practice</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+   </dependencies>
 
   <build>
 		<plugins>
