@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Dell\eclipse-workspace\phase2.learning.bdd.cucumber.27-12-2023\src\test\java\com\phase2\learning\bdd\testRunner\staticLoginSampleTestRunner.java"/>
+			<item value="C:\Users\Dell\eclipse-workspace\phase2-selenium-listeners-19-12-2023"/>
+			<item value="C:\Users\Dell\eclipse-workspace\phase2-junit5-gradle-26-12-2023"/>
 			<item value="C:\Users\Dell\eclipse-workspace\Phase2_Learning.junit.practice_22_12_2023\src\test\java\com\junit\learning\unitclassExtends\MegaAnnotationsFast.java"/>
 			<item value="C:\Users\Dell\eclipse-workspace\Phase2_Learning.junit.practice_22_12_2023\src\test\java\com\junit\learning\RetirementCalculator.java"/>
 			<item value="C:\Users\Dell\eclipse-workspace\Phase2.PracticeProject.Ecommerce\src\main\java\com\practice\stockcheck\StockCountCheck.java"/>
@@ -30,10 +33,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="phase2.practiceProject5.CucumberAmazonApp"/>
+			<item value="phase2.learning.bdd.cucumber"/>
 		</list>
 		<list key="groupId">
+			<item value="phase2.practiceProject5.CucumberAmazonApp"/>
+			<item value="phase2.learning.bdd.cucumber.27-12-2023"/>
 		</list>
 		<list key="artifactId">
+			<item value="phase2.practiceProject5.CucumberAmazonApp"/>
+			<item value="phase2.learning.bdd.cucumber.27-12-2023"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

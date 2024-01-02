@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: phase2.practiceProject5.CucumberAmazonApp.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.192 s -- in phase2.practiceProject5.CucumberAmazonApp.AppTest
