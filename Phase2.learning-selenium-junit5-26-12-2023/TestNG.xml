@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="StarHealthSuite">
+    <test name="starhealth001">
+        <classes>
+            <class name=""/>
+        </classes>
+    </test>
+
+    <test name="starhealth002">
+        <classes>
+            <class name=""/>
+        </classes>
+    </test>
+</suite>

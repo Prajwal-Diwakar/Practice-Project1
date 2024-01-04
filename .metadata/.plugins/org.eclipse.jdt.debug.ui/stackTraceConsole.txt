@@ -1,25 +1,45 @@
-class Example1 {
-   public static void main(String args[]) {
-      int num1, num2;
-      try {
-         number1 = 0;
-	 System.out.println("Sending the Exception");
-         number2 = 62 / num1;
-         System.out.println(num2);
-               }
-      catch (ArithmeticException e) { 
-         /* This block will only execute if any Arithmetic exception 
-          * occurs in try block
-          */
-         System.out.println("We can’t divide any number by zero");
-      }
-      catch (Exception e) {
-    /* This is a generic Exception handler which means it can handle              
-    /* all the exceptions. This will execute if the exception is not
-          * handled by previous catch blocks.
-          */
-         System.out.println("Exception occurred");
-      }
-      System.out.println("Try-Catch ended.");
-   }
+io.cucumber.junit.UndefinedStepException: The step 'open the browser and launch the amazon application' and 7 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("open the browser and launch the amazon application")
+public void open_the_browser_and_launch_the_amazon_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
 }
+@When("user click on signin button")
+public void user_click_on_signin_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user will be on Signin Page")
+public void user_will_be_on_signin_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user entered email id as {string}")
+public void user_entered_email_id_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user clicked on Continue button")
+public void user_clicked_on_continue_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user enters the password as {string}")
+public void user_enters_the_password_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user click on submit button")
+public void user_click_on_submit_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate the current page url")
+public void validate_the_current_page_url() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
