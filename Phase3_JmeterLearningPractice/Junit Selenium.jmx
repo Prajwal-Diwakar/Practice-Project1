@@ -35,8 +35,8 @@
           <stringProp name="junitsampler.error">An unexpected error occurred</stringProp>
           <stringProp name="junitsampler.error.code">9999</stringProp>
           <stringProp name="junitsampler.exec.setup">false</stringProp>
-          <stringProp name="junitsampler.append.error">false</stringProp>
-          <stringProp name="junitsampler.append.exception">false</stringProp>
+          <stringProp name="junitsampler.append.error">true</stringProp>
+          <stringProp name="junitsampler.append.exception">true</stringProp>
           <stringProp name="junitSampler.classname">phase3.JmeterJunit.amazonHomePage</stringProp>
           <stringProp name="junitsampler.method">testAmazonHomePageSourceUrl</stringProp>
           <boolProp name="junitsampler.junit4">true</boolProp>
@@ -52,8 +52,8 @@
           <stringProp name="junitsampler.error">An unexpected error occurred</stringProp>
           <stringProp name="junitsampler.error.code">9999</stringProp>
           <stringProp name="junitsampler.exec.setup">false</stringProp>
-          <stringProp name="junitsampler.append.error">false</stringProp>
-          <stringProp name="junitsampler.append.exception">false</stringProp>
+          <stringProp name="junitsampler.append.error">true</stringProp>
+          <stringProp name="junitsampler.append.exception">true</stringProp>
           <stringProp name="junitSampler.classname">phase3.JmeterJunit.amazonHomePage</stringProp>
           <stringProp name="junitsampler.method">testAmazonHomePageTitle</stringProp>
           <boolProp name="junitsampler.junit4">true</boolProp>
@@ -69,8 +69,8 @@
           <stringProp name="junitsampler.error">An unexpected error occurred</stringProp>
           <stringProp name="junitsampler.error.code">9999</stringProp>
           <stringProp name="junitsampler.exec.setup">false</stringProp>
-          <stringProp name="junitsampler.append.error">false</stringProp>
-          <stringProp name="junitsampler.append.exception">false</stringProp>
+          <stringProp name="junitsampler.append.error">true</stringProp>
+          <stringProp name="junitsampler.append.exception">true</stringProp>
           <stringProp name="junitSampler.classname">phase3.JmeterJunit.amazonHomePage</stringProp>
           <stringProp name="junitsampler.method">testAmazonHomePageTitle2</stringProp>
           <boolProp name="junitsampler.junit4">true</boolProp>

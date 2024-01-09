@@ -52,13 +52,13 @@
 		<item key="renameSubpackages" value="false"/>
 	</section>
 	<section name="JarPackageWizard">
-		<item key="JarPackageWizardPage.EXPORT_CLASS_FILES" value="false"/>
-		<item key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER" value="true"/>
+		<item key="JarPackageWizardPage.EXPORT_CLASS_FILES" value="true"/>
+		<item key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER" value="false"/>
 		<item key="JarPackageWizardPage.EXPORT_JAVA_FILES" value="false"/>
 		<item key="JarPackageWizardPage.REFACTORINGS" value="false"/>
 		<item key="JarPackageWizardPage.COMPRESS" value="true"/>
 		<item key="JarPackageWizardPage.INCLUDE_DIRECTORY_ENTRIES" value="false"/>
-		<item key="JarPackageWizardPage.OVERWRITE" value="false"/>
+		<item key="JarPackageWizardPage.OVERWRITE" value="true"/>
 		<item key="jarOptionsWizardPage.EXPORT_WARNINGS" value="true"/>
 		<item key="jarOptionsWizardPage.EXPORT_ERRORS" value="true"/>
 		<item key="jarOptionsWizardPage.STORE_USE_SRC_FOLDERS" value="false"/>
