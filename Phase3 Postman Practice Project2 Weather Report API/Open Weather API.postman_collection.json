@@ -1,0 +1,266 @@
+{
+	"info": {
+		"_postman_id": "278c2ea9-9300-4f02-a571-8569994445cd",
+		"name": "Open Weather API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32291674",
+		"_collection_link": "https://restless-desert-470943.postman.co/workspace/Phase3-Postman-Practice-Project~6e788ce1-35e3-4a16-88d5-ac6d1d157daa/collection/32291674-278c2ea9-9300-4f02-a571-8569994445cd?action=share&source=collection_link&creator=32291674"
+	},
+	"item": [
+		{
+			"name": "Get weather report by city name",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"status code is 200\", function(){\r",
+							"\r",
+							"    pm.response.to.have.status(200);\r",
+							"} );\r",
+							"\r",
+							"pm.test(\"Reponse body should be JSON\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.coord.lon).to.eql(-0.13);\r",
+							"    pm.expect(jsonData.base).to.eql(\"stations\");\r",
+							"    pm.expect(jsonData.id).to.eql(2643743);\r",
+							"    pm.expect(jsonData.name).to.eql(\"London\");\r",
+							"    pm.expect(jsonData.cod).to.eql(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Reponse should be a json and dynamic properties\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    // check the properties exist\r",
+							"    pm.expect(jsonData.main).to.have.property( \"temp\");\r",
+							"    pm.expect(jsonData.main).to.have.property( \"pressure\");\r",
+							"    pm.expect(jsonData.main).to.have.property( \"humidity\");\r",
+							"    pm.expect(jsonData.main).to.have.property( \"temp_min\");\r",
+							"    pm.expect(jsonData.main).to.have.property( \"temp_max\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Reponse should be a json and not null & not undefined properties\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"   \r",
+							"    // check the properties exist & not null\r",
+							"    pm.expect(jsonData.coord.lon).to.not.be.null;\r",
+							"    pm.expect(jsonData.coord.lat).to.not.be.undefined;\r",
+							"    \r",
+							"    // check the properties exist & not undefined.\r",
+							"    pm.expect(jsonData.main.temp).to.not.be.null;\r",
+							"    pm.expect(jsonData.main.temp).to.not.be.undefined;\r",
+							"\r",
+							"    // check the properties exist & not undefined.\r",
+							"    pm.expect(jsonData.main.pressure).to.not.be.null;\r",
+							"    pm.expect(jsonData.main.pressure).to.not.be.undefined;\r",
+							"\r",
+							"    // check the properties exist & not undefined.\r",
+							"    pm.expect(jsonData.main.humidity).to.not.be.null;\r",
+							"    pm.expect(jsonData.main.humidity).to.not.be.undefined;\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Response time is less than 1000ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Host_url}}?q=London&{{APP ID}}",
+					"host": [
+						"{{Host_url}}"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "London"
+						},
+						{
+							"key": "{{APP ID}}",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get weather report by ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"status code is 200\", function(){\r",
+							"\r",
+							"    pm.response.to.have.status(200);\r",
+							"} );\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Host_url}}?id= 1277333&{{APP ID}}",
+					"host": [
+						"{{Host_url}}"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": " 1277333"
+						},
+						{
+							"key": "{{APP ID}}",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get weather report by latitude and longitude",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"status code is 200\", function(){\r",
+							"\r",
+							"    pm.response.to.have.status(200);\r",
+							"} );\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Host_url}}?lat=35&lon=139&{{APP ID}}",
+					"host": [
+						"{{Host_url}}"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "35"
+						},
+						{
+							"key": "lon",
+							"value": "139"
+						},
+						{
+							"key": "{{APP ID}}",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get weather report by ZIP code",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"status code is 200\", function(){\r",
+							"\r",
+							"    pm.response.to.have.status(200);\r",
+							"} );\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Host_url}}?zip=94040&{{APP ID}}",
+					"host": [
+						"{{Host_url}}"
+					],
+					"query": [
+						{
+							"key": "zip",
+							"value": "94040"
+						},
+						{
+							"key": "{{APP ID}}",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"pm.test(\"Validate Collections varaibles\", function () {",
+					"",
+					"   var host_url =  pm.collectionVariables.get(\"Host_url\");",
+					"   var id =  pm.collectionVariables.get(\"ID\");",
+					"   var city =  pm.collectionVariables.get(\"City\");",
+					"   var appId =  pm.collectionVariables.get(\"APP ID\");",
+					"",
+					"",
+					"   console.log(host_url,id,  city , appId);",
+					"});"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "Host_url",
+			"value": "https://samples.openweathermap.org/data/2.5/weather",
+			"type": "string"
+		},
+		{
+			"key": "ID",
+			"value": "2172797",
+			"type": "string"
+		},
+		{
+			"key": "City",
+			"value": "London",
+			"type": "string"
+		},
+		{
+			"key": "APP ID",
+			"value": "appid=b6907d289e10d714a6e88b30761fae22",
+			"type": "string"
+		}
+	]
+}
