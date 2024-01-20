@@ -26,6 +26,7 @@
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="src" path="src/test/resource"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
@@ -34,6 +35,15 @@
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Dell/.m2/repository/com/sikulix/sikulix2tigervnc/1.1.4/sikulix2tigervnc-1.1.4.jar" sourcepath="C:/Users/Dell/.m2/repository/com/sikulix/sikulix2tigervnc/1.1.4/sikulix2tigervnc-1.1.4-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.sikulix"/>
+			<attribute name="maven.artifactId" value="sikulix2tigervnc"/>
+			<attribute name="maven.version" value="1.1.4"/>
+			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>

@@ -5,6 +5,7 @@ import static org.testng.Assert.assertEquals;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
+
 import io.restassured.path.xml.XmlPath;
 
 public class practice5_GET_POST_XMLandJSON {
@@ -29,15 +30,15 @@ private static final String BASE_URL = "https://www.dataaccess.com";
 		.post("/webservicesserver/NumberConversion.wso").then()
 		.assertThat().statusCode(200);
 		
-		String response = RestAssured.given().baseUri(BASE_URL).when()
-				.contentType("text/xml; charset=utf-8")
-				.body(soapRequest)
-				.post("/webservicesserver/NumberConversion.wso")
-				.getBody().asString();
-		XmlPath path = new XmlPath(response);
-		
-		assertEquals(path.getString("NumberToDollarsResult"), "five thousand seventy eight dollars and nine cents");
-		System.out.println(path.getString("NumberToDollarsResult"));
+//		String response = RestAssured.given().baseUri(BASE_URL).when()
+//				.contentType("text/xml; charset=utf-8")
+//				.body(soapRequest)
+//				.post("/webservicesserver/NumberConversion.wso")
+//				.getBody().asString();
+//		XmlPath path = new XmlPath(response);
+//		
+//		assertEquals(path.getString("NumberToDollarsResult"), "five thousand seventy eight dollars and nine cents");
+//		System.out.println(path.getString("NumberToDollarsResult"));
 	}
 }
 

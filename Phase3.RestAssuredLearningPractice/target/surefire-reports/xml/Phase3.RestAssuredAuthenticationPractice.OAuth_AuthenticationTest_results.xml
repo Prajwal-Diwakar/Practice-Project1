@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Surefire test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11.877">
+  <properties />
+  
+  
+            <testcase name="testAuthenticationCurrentauthUserFromToken" time="9.562" classname="Phase3.RestAssuredAuthenticationPractice.OAuth_AuthenticationTest" />
+                <testcase name="testAuthenticationwithUserCredentials" time="0.759" classname="Phase3.RestAssuredAuthenticationPractice.OAuth_AuthenticationTest" />
+                <testcase name="testAuthenticationwithToken" time="1.556" classname="Phase3.RestAssuredAuthenticationPractice.OAuth_AuthenticationTest" />
+      
+</testsuite>

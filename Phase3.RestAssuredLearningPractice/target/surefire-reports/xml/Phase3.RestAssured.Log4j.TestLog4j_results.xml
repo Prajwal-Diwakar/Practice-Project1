@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Surefire test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.016">
+  <properties />
+  
+  
+            <testcase name="testWarnLogs" time="0.002" classname="Phase3.RestAssured.Log4j.TestLog4j" />
+                <testcase name="testErrorLogs" time="0.001" classname="Phase3.RestAssured.Log4j.TestLog4j" />
+                <testcase name="testInfoLogs" time="0.002" classname="Phase3.RestAssured.Log4j.TestLog4j" />
+                <testcase name="testDebugLogs" time="0.011" classname="Phase3.RestAssured.Log4j.TestLog4j" />
+      
+</testsuite>
