@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="RestAssured Test">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	
+	<test name="Assignment_01">
+		<classes>
+			<class name="Phase3.Assignment01_RestAssured.PostRequest"></class>
+			<class name="Phase3.Assignment01_RestAssured.GetRequest"></class>
+			<class name="Phase3.Assignment01_RestAssured.DeleteRequest"></class>
+		</classes>
+	</test>
+	
+	<test name="DevTest Assignment_02">
+        <parameter name="environment" value="DEV" />
+        <classes>
+            <class name="Phase3.Assignment02_RestAssured.putRequestMethod2" />
+        </classes>
+    </test>
+
+    <test name="QATest Assignment_02">
+        <parameter name="environment" value="QA" />
+        <classes>
+            <class name="Phase3.Assignment02_RestAssured.putRequestMethod2" />
+        </classes>
+    </test>
+
+    <test name="ProdTest Assignment_02">
+        <parameter name="environment" value="PROD" />
+        <classes>
+            <class name="Phase3.Assignment02_RestAssured.putRequestMethod2" />
+        </classes>
+    </test>
+    
+    <test name="Assignment_02">
+		<classes>
+			<class name="Phase3.Assignment02_RestAssured.putRequestMethod1"></class>
+		</classes>
+	</test>
+	
+	 <test name="Assignment_03">
+		<classes>
+			<class name="Phase3.Assignment03_RestAssured.GetRequestUserName"></class>
+		</classes>
+	</test>
+	
+	 <test name="Assignment_04">
+		<classes>
+			<class name="Phase3.Assignment04_RestAssured.GetRequestAuthentication"></class>
+		</classes>
+	</test>
+	
+	 <test name="Assignment_05">
+		<classes>
+			<class name="Phase3.Assignment05.RestAssured.TestPetStoreFindByStatus"></class>
+		</classes>
+	</test>
+	
+	<test name="Assignment_06">
+		<classes>
+			<class name="Phase3.Assignment06.RestAssured.UserLogout"></class>
+		</classes>
+	</test>	
+</suite>	
