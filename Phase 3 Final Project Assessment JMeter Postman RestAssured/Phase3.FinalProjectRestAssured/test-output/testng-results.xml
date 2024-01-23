@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-23T22:48:53 IST" name="RestAssured Test" finished-at="2024-01-23T22:49:46 IST" duration-ms="52921">
+    <groups>
+    </groups>
+    <test started-at="2024-01-23T22:48:53 IST" name="Assignment_01" finished-at="2024-01-23T22:49:08 IST" duration-ms="15586">
+      <class name="Phase3.Assignment01_RestAssured.DeleteRequest">
+        <test-method signature="testGetPet()[pri:0, instance:Phase3.Assignment01_RestAssured.DeleteRequest@2bfc268b]" started-at="2024-01-23T22:49:05 IST" name="testGetPet" description="Delete request method for the PET" finished-at="2024-01-23T22:49:08 IST" duration-ms="2864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPet -->
+      </class> <!-- Phase3.Assignment01_RestAssured.DeleteRequest -->
+      <class name="Phase3.Assignment01_RestAssured.PostRequest">
+        <test-method signature="testPostPet()[pri:0, instance:Phase3.Assignment01_RestAssured.PostRequest@3738449f]" started-at="2024-01-23T22:48:53 IST" name="testPostPet" description="Post request method with the rest assured" finished-at="2024-01-23T22:49:02 IST" duration-ms="9613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostPet -->
+      </class> <!-- Phase3.Assignment01_RestAssured.PostRequest -->
+      <class name="Phase3.Assignment01_RestAssured.GetRequest">
+        <test-method signature="testGetPet()[pri:0, instance:Phase3.Assignment01_RestAssured.GetRequest@53976f5c]" started-at="2024-01-23T22:49:02 IST" name="testGetPet" description="Get request method to get PET details using the petID" finished-at="2024-01-23T22:49:05 IST" duration-ms="2973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPet -->
+      </class> <!-- Phase3.Assignment01_RestAssured.GetRequest -->
+    </test> <!-- Assignment_01 -->
+    <test started-at="2024-01-23T22:49:08 IST" name="DevTest Assignment_02" finished-at="2024-01-23T22:49:11 IST" duration-ms="2988">
+      <class name="Phase3.Assignment02_RestAssured.putRequestMethod2">
+        <test-method signature="putCallTesting(java.lang.String)[pri:0, instance:Phase3.Assignment02_RestAssured.putRequestMethod2@32ee6fee]" started-at="2024-01-23T22:49:08 IST" name="putCallTesting" finished-at="2024-01-23T22:49:11 IST" duration-ms="2978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DEV]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putCallTesting -->
+      </class> <!-- Phase3.Assignment02_RestAssured.putRequestMethod2 -->
+    </test> <!-- DevTest Assignment_02 -->
+    <test started-at="2024-01-23T22:49:11 IST" name="QATest Assignment_02" finished-at="2024-01-23T22:49:14 IST" duration-ms="2979">
+      <class name="Phase3.Assignment02_RestAssured.putRequestMethod2">
+        <test-method signature="putCallTesting(java.lang.String)[pri:0, instance:Phase3.Assignment02_RestAssured.putRequestMethod2@7133da86]" started-at="2024-01-23T22:49:11 IST" name="putCallTesting" finished-at="2024-01-23T22:49:14 IST" duration-ms="2973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putCallTesting -->
+      </class> <!-- Phase3.Assignment02_RestAssured.putRequestMethod2 -->
+    </test> <!-- QATest Assignment_02 -->
+    <test started-at="2024-01-23T22:49:14 IST" name="ProdTest Assignment_02" finished-at="2024-01-23T22:49:17 IST" duration-ms="2984">
+      <class name="Phase3.Assignment02_RestAssured.putRequestMethod2">
+        <test-method signature="putCallTesting(java.lang.String)[pri:0, instance:Phase3.Assignment02_RestAssured.putRequestMethod2@28f2a10f]" started-at="2024-01-23T22:49:14 IST" name="putCallTesting" finished-at="2024-01-23T22:49:17 IST" duration-ms="2976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PROD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putCallTesting -->
+      </class> <!-- Phase3.Assignment02_RestAssured.putRequestMethod2 -->
+    </test> <!-- ProdTest Assignment_02 -->
+    <test started-at="2024-01-23T22:49:17 IST" name="Assignment_02" finished-at="2024-01-23T22:49:26 IST" duration-ms="8807">
+      <class name="Phase3.Assignment02_RestAssured.putRequestMethod1">
+        <test-method signature="putCallTesting(java.lang.String)[pri:0, instance:Phase3.Assignment02_RestAssured.putRequestMethod1@66d3eec0]" started-at="2024-01-23T22:49:17 IST" name="putCallTesting" description="put request method " data-provider="statusValues" finished-at="2024-01-23T22:49:20 IST" duration-ms="2948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[available_DEV]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putCallTesting -->
+        <test-method signature="putCallTesting(java.lang.String)[pri:0, instance:Phase3.Assignment02_RestAssured.putRequestMethod1@66d3eec0]" started-at="2024-01-23T22:49:20 IST" name="putCallTesting" description="put request method " data-provider="statusValues" finished-at="2024-01-23T22:49:23 IST" duration-ms="2947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[available_QA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putCallTesting -->
+        <test-method signature="putCallTesting(java.lang.String)[pri:0, instance:Phase3.Assignment02_RestAssured.putRequestMethod1@66d3eec0]" started-at="2024-01-23T22:49:23 IST" name="putCallTesting" description="put request method " data-provider="statusValues" finished-at="2024-01-23T22:49:26 IST" duration-ms="2893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[available_PROD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putCallTesting -->
+      </class> <!-- Phase3.Assignment02_RestAssured.putRequestMethod1 -->
+    </test> <!-- Assignment_02 -->
+    <test started-at="2024-01-23T22:49:26 IST" name="Assignment_03" finished-at="2024-01-23T22:49:29 IST" duration-ms="2915">
+      <class name="Phase3.Assignment03_RestAssured.GetRequestUserName">
+        <test-method signature="TestGetMethod()[pri:0, instance:Phase3.Assignment03_RestAssured.GetRequestUserName@543588e6]" started-at="2024-01-23T22:49:26 IST" name="TestGetMethod" description=" Get request method with rest assured" finished-at="2024-01-23T22:49:29 IST" duration-ms="2909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetMethod -->
+      </class> <!-- Phase3.Assignment03_RestAssured.GetRequestUserName -->
+    </test> <!-- Assignment_03 -->
+    <test started-at="2024-01-23T22:49:29 IST" name="Assignment_04" finished-at="2024-01-23T22:49:33 IST" duration-ms="3799">
+      <class name="Phase3.Assignment04_RestAssured.GetRequestAuthentication">
+        <test-method signature="testAuthenticationToken()[pri:0, instance:Phase3.Assignment04_RestAssured.GetRequestAuthentication@2c35e847]" started-at="2024-01-23T22:49:29 IST" name="testAuthenticationToken" description="Test Authentication with rest assured" finished-at="2024-01-23T22:49:33 IST" duration-ms="3789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthenticationToken -->
+      </class> <!-- Phase3.Assignment04_RestAssured.GetRequestAuthentication -->
+    </test> <!-- Assignment_04 -->
+    <test started-at="2024-01-23T22:49:33 IST" name="Assignment_05" finished-at="2024-01-23T22:49:43 IST" duration-ms="9809">
+      <class name="Phase3.Assignment05.RestAssured.TestPetStoreFindByStatus">
+        <test-method signature="findPetsByAvailableStatus()[pri:0, instance:Phase3.Assignment05.RestAssured.TestPetStoreFindByStatus@52af26ee]" started-at="2024-01-23T22:49:33 IST" name="findPetsByAvailableStatus" finished-at="2024-01-23T22:49:37 IST" duration-ms="3952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPetsByAvailableStatus -->
+        <test-method signature="findPetsByPendingStatus()[pri:0, instance:Phase3.Assignment05.RestAssured.TestPetStoreFindByStatus@52af26ee]" started-at="2024-01-23T22:49:37 IST" name="findPetsByPendingStatus" finished-at="2024-01-23T22:49:40 IST" duration-ms="2964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPetsByPendingStatus -->
+        <test-method signature="findPetsBySoldStatus()[pri:0, instance:Phase3.Assignment05.RestAssured.TestPetStoreFindByStatus@52af26ee]" started-at="2024-01-23T22:49:40 IST" name="findPetsBySoldStatus" finished-at="2024-01-23T22:49:43 IST" duration-ms="2879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPetsBySoldStatus -->
+      </class> <!-- Phase3.Assignment05.RestAssured.TestPetStoreFindByStatus -->
+    </test> <!-- Assignment_05 -->
+    <test started-at="2024-01-23T22:49:43 IST" name="Assignment_06" finished-at="2024-01-23T22:49:46 IST" duration-ms="2905">
+      <class name="Phase3.Assignment06.RestAssured.UserLogout">
+        <test-method signature="TestUserLogout()[pri:0, instance:Phase3.Assignment06.RestAssured.UserLogout@1b2abca6]" started-at="2024-01-23T22:49:43 IST" name="TestUserLogout" description=" userLogout get method with the rest assured" finished-at="2024-01-23T22:49:46 IST" duration-ms="2900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserLogout -->
+      </class> <!-- Phase3.Assignment06.RestAssured.UserLogout -->
+    </test> <!-- Assignment_06 -->
+  </suite> <!-- RestAssured Test -->
+</testng-results>

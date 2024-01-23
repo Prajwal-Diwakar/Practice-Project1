@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Assignment_01"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.973">
+  <properties />
+  
+  
+            <testcase name="testGetPet" time="2.973" classname="Phase3.Assignment01_RestAssured.GetRequest" />
+      
+</testsuite>
