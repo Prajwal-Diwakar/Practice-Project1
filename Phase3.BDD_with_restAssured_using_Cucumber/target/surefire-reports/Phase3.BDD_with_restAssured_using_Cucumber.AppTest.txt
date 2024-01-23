@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Phase3.BDD_with_restAssured_using_Cucumber.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.130 s -- in Phase3.BDD_with_restAssured_using_Cucumber.AppTest

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="REST APIs"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.844">
+  <properties />
+  
+  
+            <testcase name="putRequestTest" time="0.860" classname="Phase3.RestAssuredLearningPractice.deleteRequest" />
+                <testcase name="putRequestTest" time="0.808" classname="Phase3.RestAssuredLearningPractice.deleteRequest" />
+                <testcase name="putRequestTest" time="3.176" classname="Phase3.RestAssuredLearningPractice.deleteRequest" />
+      
+</testsuite>

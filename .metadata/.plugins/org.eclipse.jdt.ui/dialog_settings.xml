@@ -74,4 +74,7 @@
 			<item value="C:\Users\Dell\software\apache-jmeter-5.6.2\lib\junit\Junit_jmeter.jar"/>
 		</list>
 	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item key="index" value="0"/>
+	</section>
 </section>

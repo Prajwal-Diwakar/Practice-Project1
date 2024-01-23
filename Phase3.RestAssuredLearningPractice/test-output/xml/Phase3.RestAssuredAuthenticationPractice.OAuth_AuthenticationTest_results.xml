@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="REST Auth"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.042">
+  <properties />
+  
+  
+            <testcase name="testAuthenticationwithUserCredentials" time="0.790" classname="Phase3.RestAssuredAuthenticationPractice.OAuth_AuthenticationTest" />
+                <testcase name="testAuthenticationwithToken" time="1.540" classname="Phase3.RestAssuredAuthenticationPractice.OAuth_AuthenticationTest" />
+                <testcase name="testAuthenticationCurrentauthUserFromToken" time="1.712" classname="Phase3.RestAssuredAuthenticationPractice.OAuth_AuthenticationTest" />
+      
+</testsuite>

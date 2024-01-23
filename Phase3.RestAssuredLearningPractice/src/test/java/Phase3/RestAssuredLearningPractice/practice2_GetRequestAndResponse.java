@@ -27,5 +27,7 @@ private static final String BASE_URL = "https://reqres.in/api";
 		.body("per_page", equalTo(per_page)).and()
 		.body("total_pages", equalTo(total_pages)).and()
 		.body("data[0].first_name", equalTo("Michael"));
+		
+		
 	}
 }

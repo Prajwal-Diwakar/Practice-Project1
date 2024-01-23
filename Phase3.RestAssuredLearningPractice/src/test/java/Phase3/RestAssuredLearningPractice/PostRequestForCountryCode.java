@@ -17,14 +17,15 @@ public class PostRequestForCountryCode {
 	
 	public void TestPostMethod() {
 		
-	String soapRequest  ="<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n"
-			+ "<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope>\r\n"
+	String soapRequest ="<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n"
+			+ "<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\r\n"
 			+ "<soap12:Body>\r\n"
-			+ "<ListOfCountryNamesByName xmlns=\"http://www.oorsprong.org/websamples.countryinfo>\r\n"
+			+ "<ListOfCountryNamesByName xmlns=\"http://www.oorsprong.org/websamples.countryinfo\">\r\n"
 			+ "</ListOfCountryNamesByName>\r\n"
 			+ "</soap12:Body>\r\n"
 			+ "</soap12:Envelope>";
 	
+
 	// create post call	
 	
 	RestAssured.given().baseUri(BASE_URL).when()

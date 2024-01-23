@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="REST Auth"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.231">
+  <properties />
+  
+  
+            <testcase name="TestSSLAuthentication2" time="0.485" classname="Phase3.RestAssuredAuthenticationPractice.Practice7_SSLauthentication" />
+                <testcase name="TestSSLAuthentication1" time="0.746" classname="Phase3.RestAssuredAuthenticationPractice.Practice7_SSLauthentication" />
+      
+</testsuite>

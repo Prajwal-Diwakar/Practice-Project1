@@ -8,26 +8,29 @@
 	</listeners>
 	<test name="REST APIs">
 		<classes>
-			<class
-				name="Phase3.RestAssuredLearningPractice.practice2_GetRequestAndResponse"></class>
-			<class name="com.simplilearn.resttesting.PostRequestTest"></class>
-			<class name="com.simplilearn.resttesting.PutRequestTest"></class>
-			<class name="com.simplilearn.resttesting.PatchRequestTest"></class>
-			<class name="com.simplilearn.resttesting.DeleteRequestTest"></class>
+			<class name="Phase3.RestAssuredLearningPractice.practice2_GetRequestAndResponse"></class>
+			<class name="Phase3.RestAssuredLearningPractice.practice3_PostRequestAndResponse"></class>
+			<class name="Phase3.RestAssuredLearningPractice.putRequest"></class>
+			<class name="Phase3.RestAssuredLearningPractice.patchRequest"></class>
+			<class name="Phase3.RestAssuredLearningPractice.deleteRequest"></class>
 		</classes>
 	</test>
 
 	<test name="SOAP APIs">
 		<classes>
 			<class
-				name="com.simplilearn.soaptesting.GetCapitalByCountryCodeTest"></class>
-			<class name="com.simplilearn.soaptesting.NumberToWordConversion"></class>
+				name="Phase3.RestAssuredLearningPractice.PostRequestForCountryCode"></class>
+			<class name="Phase3.RestAssuredLearningPractice.practice5_GET_POST_XMLandJSON"></class>
+			<class name ="Phase3.RestAssuredLearningPractice.practice4_SendXMLPayloadinRESTassuredParseXMLResponseinRESTAssured"></class>
+			
 		</classes>
 	</test>
 
 	<test name="REST Auth">
 		<classes>
-			<class name="com.simplilearn.authtesting.AuthenticationTest"></class>
+			<class name="Phase3.RestAssuredAuthenticationPractice.AuthenticationTest"></class>
+			<class name="Phase3.RestAssuredAuthenticationPractice.OAuth_AuthenticationTest"></class>
+			<class name="Phase3.RestAssuredAuthenticationPractice.Practice7_SSLauthentication"></class>
 		</classes>
 	</test>
 </suite>

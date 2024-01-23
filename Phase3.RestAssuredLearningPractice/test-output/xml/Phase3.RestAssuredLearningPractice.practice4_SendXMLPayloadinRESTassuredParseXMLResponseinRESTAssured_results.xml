@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SOAP APIs"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.101">
+  <properties />
+  
+  
+            <testcase name="postXMLRequestTest" time="1.156" classname="Phase3.RestAssuredLearningPractice.practice4_SendXMLPayloadinRESTassuredParseXMLResponseinRESTAssured" />
+                <testcase name="postXMLRequestTest" time="1.231" classname="Phase3.RestAssuredLearningPractice.practice4_SendXMLPayloadinRESTassuredParseXMLResponseinRESTAssured" />
+                <testcase name="postXMLRequestTest" time="1.202" classname="Phase3.RestAssuredLearningPractice.practice4_SendXMLPayloadinRESTassuredParseXMLResponseinRESTAssured" />
+                <testcase name="postXMLRequestTest" time="1.512" classname="Phase3.RestAssuredLearningPractice.practice4_SendXMLPayloadinRESTassuredParseXMLResponseinRESTAssured" />
+      
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="REST APIs"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.238">
+  <properties />
+  
+  
+            <testcase name="getRequestTest" time="6.238" classname="Phase3.RestAssuredLearningPractice.practice2_GetRequestAndResponse" />
+      
+</testsuite>
