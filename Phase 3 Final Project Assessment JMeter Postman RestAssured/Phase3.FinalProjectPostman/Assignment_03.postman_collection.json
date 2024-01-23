@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "b516d2fb-6e0a-4026-a7f3-ec4e115adec2",
+		"name": "Assignment_03",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32291674"
+	},
+	"item": [
+		{
+			"name": "find user by username",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Validate username in response\", function () {\r",
+							"    pm.expect(pm.response.json().username).to.eql(pm.environment.get(\"username\"));\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Validate email in response\", function () {\r",
+							"    pm.expect(pm.response.json().email).to.eql(\"Positive@Attitude.com\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Validate userStatus in response\", function () {\r",
+							"    pm.expect(pm.response.json().userStatus).to.eql(1);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/#/user/Uname001\n",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						""
+					],
+					"hash": "/user/Uname001\n"
+				}
+			},
+			"response": []
+		}
+	]
+}
