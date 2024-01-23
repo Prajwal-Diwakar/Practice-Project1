@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="QATest Assignment_02"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.973">
+  <properties />
+  
+  
+            <testcase name="putCallTesting" time="2.973" classname="Phase3.Assignment02_RestAssured.putRequestMethod2" />
+      
+</testsuite>

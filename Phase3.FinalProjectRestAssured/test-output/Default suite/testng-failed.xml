@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Phase3.Assignment06.RestAssured.UserLogout">
+      <class name="Phase3.Assignment02_RestAssured.putRequestMethod2">
         <methods>
-          <include name="TestUserLogout"/>
+          <include name="putCallTesting"/>
         </methods>
-      </class> <!-- Phase3.Assignment06.RestAssured.UserLogout -->
+      </class> <!-- Phase3.Assignment02_RestAssured.putRequestMethod2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

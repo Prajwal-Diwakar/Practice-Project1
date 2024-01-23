@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Assignment_02"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8.788">
+  <properties />
+  
+  
+            <testcase name="putCallTesting" time="2.893" classname="Phase3.Assignment02_RestAssured.putRequestMethod1" />
+                <testcase name="putCallTesting" time="2.947" classname="Phase3.Assignment02_RestAssured.putRequestMethod1" />
+                <testcase name="putCallTesting" time="2.948" classname="Phase3.Assignment02_RestAssured.putRequestMethod1" />
+      
+</testsuite>

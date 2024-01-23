@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Assignment_05"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="9.795">
+  <properties />
+  
+  
+            <testcase name="findPetsByPendingStatus" time="2.964" classname="Phase3.Assignment05.RestAssured.TestPetStoreFindByStatus" />
+                <testcase name="findPetsByAvailableStatus" time="3.952" classname="Phase3.Assignment05.RestAssured.TestPetStoreFindByStatus" />
+                <testcase name="findPetsBySoldStatus" time="2.879" classname="Phase3.Assignment05.RestAssured.TestPetStoreFindByStatus" />
+      
+</testsuite>
