@@ -1,0 +1,329 @@
+{
+	"info": {
+		"_postman_id": "86c6e9bd-d03a-4000-9900-6b4491768b62",
+		"name": "Testing_Framework_for_the_Medicare_Website",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32291674",
+		"_collection_link": "https://restless-desert-470943.postman.co/workspace/Mphasis-ATE-Capstone-Project-Me~6b6bae50-d97e-40a9-9280-d5dbecce0cad/collection/32291674-86c6e9bd-d03a-4000-9900-6b4491768b62?action=share&source=collection_link&creator=32291674"
+	},
+	"item": [
+		{
+			"name": "Retrieve the list of all products in the store",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Response matches these values\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.code).to.eql(101);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Body contains these string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"id\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"image\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"name\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"category\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"brand\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"status\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"price\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/get-products",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"get-products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve the list of all registered users",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Responsematches these values\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.code).to.eql(101);\r",
+							"    pm.expect(jsonData.message).to.eql(\"4 Users Fetched Successfully.\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Body contains these string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"name\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"email\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"password\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"type\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/get-users",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"get-users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add the product",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Responsematches these values\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.code).to.eql(101);\r",
+							"    pm.expect(jsonData.message).to.eql(\"Disprin Added Successfully.\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Body contains these string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"id\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"image\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"name\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"category\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"brand\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"status\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"price\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 999,\r\n        \"image\": \"1.png\",\r\n        \"name\": \"Disprin\",\r\n        \"category\": \"medicine\",\r\n        \"brand\": \"BZ Medico\",\r\n        \"status\": 1,\r\n        \"price\": 100\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/add-product",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"add-product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete the product",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"code\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"message\");\r",
+							";\r",
+							"});\r",
+							"pm.test(\"Response body values\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.code).to.eql(101)\r",
+							"    pm.expect(jsonData.message).to.eql(\"Product with ID 101 Deleted Successfully.\")\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/delete-product?id=101",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"delete-product"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "101"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update the product",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Responsematches these values\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.code).to.eql(101);\r",
+							"    pm.expect(jsonData.message).to.eql(\"Disprin+ Updated Successfully.\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Body contains these string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"id\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"image\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"name\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"category\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"brand\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"status\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"price\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 999,\r\n        \"image\": \"2.png\",\r\n        \"name\": \"Disprin+\",\r\n        \"category\": \"medicine\",\r\n        \"brand\": \"BZ Medico\",\r\n        \"status\": 1,\r\n        \"price\": 120\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/update-product",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"update-product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update the product status",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Responsematches these values\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.code).to.eql(101);\r",
+							"    pm.expect(jsonData.message).to.eql(\"Disprin+ Status Updated Successfully.\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Body contains these string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"id\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"image\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"name\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"category\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"brand\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"status\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"price\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 999,\r\n        \"image\": \"2.png\",\r\n        \"name\": \"Disprin+\",\r\n        \"category\": \"medicine\",\r\n        \"brand\": \"BZ Medico\",\r\n        \"status\": 0,\r\n        \"price\": 120\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/update-product-status",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"update-product-status"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
