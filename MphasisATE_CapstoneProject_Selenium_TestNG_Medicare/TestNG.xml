@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Mphasis ATE Capstone Project">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	
+	<test name="Medicare Web Application Test">
+		<classes>
+			<class name="MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareLoginPage"></class>
+			<class name="MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareRegisterPage"></class>
+			<class name="MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareAddProductToCart"></class>
+			<class name="MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicarePlaceOrderPage"></class>
+			<class name="MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareSearchProduct"></class>
+			<class name="MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareFilterProduct"></class>
+			<class name="MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareLogoutPage"></class>
+		</classes>
+	</test>
+	
+</suite>	

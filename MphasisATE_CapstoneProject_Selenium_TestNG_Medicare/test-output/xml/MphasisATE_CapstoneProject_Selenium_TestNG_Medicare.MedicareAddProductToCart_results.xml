@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Medicare Web Application Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="16.455">
+  <properties />
+  
+  
+            <testcase name="testCartPage" time="13.267" classname="MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareAddProductToCart" />
+                <testcase name="testRegisterPage" time="3.188" classname="MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareAddProductToCart" />
+      
+</testsuite>

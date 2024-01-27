@@ -4,12 +4,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import static org.hamcrest.CoreMatchers.equalTo;
-
 import org.apache.log4j.Logger;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import Phase3.Assignment01_RestAssured.GetRequest;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 

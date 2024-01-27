@@ -1,10 +1,7 @@
 package Phase3.Assignment01_RestAssured;
 
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
-
 import org.testng.annotations.Test;
-
 import org.apache.log4j.Logger;
 
 public class DeleteRequest {

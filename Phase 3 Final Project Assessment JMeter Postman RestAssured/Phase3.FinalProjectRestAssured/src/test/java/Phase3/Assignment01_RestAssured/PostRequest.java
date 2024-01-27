@@ -3,12 +3,7 @@ package Phase3.Assignment01_RestAssured;
 import static org.hamcrest.CoreMatchers.equalTo;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.response.Response;
 import org.testng.annotations.Test;
-
-import static io.restassured.RestAssured.given;
-import static org.testng.Assert.assertEquals;
-
 import org.apache.log4j.Logger;
 
 public class PostRequest {
@@ -26,7 +21,7 @@ public class PostRequest {
 	           "\"photoUrls\": [ \"string\" ], \"tags\": [ { \"id\": 0, \"name\": \"string\" } ], " +
 	           "\"status\": \"available\" }";
 
-	       int petID = 344;
+	       
 	       try {
 	    	// Send POST request
 		        RestAssured.given().baseUri(Base_Url)

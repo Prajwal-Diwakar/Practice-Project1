@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Mphasis ATE Capstone Project Rest Assured">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	
+	<test name="Medicare">
+		<classes>
+			<class name="MphasisATE_CapstoneProjectRestAssured_TestNG_Medicare.GetProducts"></class>
+			<class name="MphasisATE_CapstoneProjectRestAssured_TestNG_Medicare.GetRegisteredUser"></class>
+			<class name="MphasisATE_CapstoneProjectRestAssured_TestNG_Medicare.PostAddProduct"></class>
+			<class name="MphasisATE_CapstoneProjectRestAssured_TestNG_Medicare.PutUpdateProduct"></class>
+			<class name="MphasisATE_CapstoneProjectRestAssured_TestNG_Medicare.PutUpdateStatusProduct"></class>
+			<class name="MphasisATE_CapstoneProjectRestAssured_TestNG_Medicare.DeleteProduct"></class>
+		</classes>
+	</test>
+</suite>	

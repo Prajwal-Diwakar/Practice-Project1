@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-27T10:32:30 IST" name="Mphasis ATE Capstone Project" finished-at="2024-01-27T10:34:39 IST" duration-ms="129197">
+    <groups>
+    </groups>
+    <test started-at="2024-01-27T10:32:30 IST" name="Medicare Web Application Test" finished-at="2024-01-27T10:34:39 IST" duration-ms="129197">
+      <class name="MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareSearchProduct">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareSearchProduct@623a8092]" started-at="2024-01-27T10:33:47 IST" name="setUp" finished-at="2024-01-27T10:33:52 IST" duration-ms="5147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegisterPage()[pri:1, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareSearchProduct@623a8092]" started-at="2024-01-27T10:33:52 IST" name="testRegisterPage" description="Test Medicare Register Page " finished-at="2024-01-27T10:33:55 IST" duration-ms="3061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPage -->
+        <test-method signature="Searchtheproduct()[pri:2, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareSearchProduct@623a8092]" started-at="2024-01-27T10:33:55 IST" name="Searchtheproduct" description="Search the product in the search bar" finished-at="2024-01-27T10:34:01 IST" duration-ms="6585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchtheproduct -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareSearchProduct@623a8092]" started-at="2024-01-27T10:34:01 IST" name="cleanUp" finished-at="2024-01-27T10:34:02 IST" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareSearchProduct -->
+      <class name="MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareLoginPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareLoginPage@7a675056]" started-at="2024-01-27T10:32:30 IST" name="setUp" finished-at="2024-01-27T10:32:37 IST" duration-ms="6810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginPage()[pri:0, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareLoginPage@7a675056]" started-at="2024-01-27T10:32:37 IST" name="testLoginPage" description="Test Medicare Login Page " finished-at="2024-01-27T10:32:43 IST" duration-ms="5933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareLoginPage@7a675056]" started-at="2024-01-27T10:32:43 IST" name="cleanUp" finished-at="2024-01-27T10:32:44 IST" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareLoginPage -->
+      <class name="MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicarePlaceOrderPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicarePlaceOrderPage@548e6d58]" started-at="2024-01-27T10:33:17 IST" name="setUp" finished-at="2024-01-27T10:33:22 IST" duration-ms="5354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegisterPage()[pri:1, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicarePlaceOrderPage@548e6d58]" started-at="2024-01-27T10:33:22 IST" name="testRegisterPage" description="Test Medicare Register Page " finished-at="2024-01-27T10:33:25 IST" duration-ms="3302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPage -->
+        <test-method signature="testCartPage()[pri:2, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicarePlaceOrderPage@548e6d58]" started-at="2024-01-27T10:33:25 IST" name="testCartPage" description="Add product to cart page Test" finished-at="2024-01-27T10:33:39 IST" duration-ms="13667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartPage -->
+        <test-method signature="PlaceOrder()[pri:3, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicarePlaceOrderPage@548e6d58]" started-at="2024-01-27T10:33:39 IST" name="PlaceOrder" description="Place order for the product in the cart" finished-at="2024-01-27T10:33:46 IST" duration-ms="6888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrder -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicarePlaceOrderPage@548e6d58]" started-at="2024-01-27T10:33:46 IST" name="cleanUp" finished-at="2024-01-27T10:33:47 IST" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicarePlaceOrderPage -->
+      <class name="MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareAddProductToCart">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareAddProductToCart@2f465398]" started-at="2024-01-27T10:32:53 IST" name="setUp" finished-at="2024-01-27T10:32:59 IST" duration-ms="5116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegisterPage()[pri:1, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareAddProductToCart@2f465398]" started-at="2024-01-27T10:32:59 IST" name="testRegisterPage" description="Add product to cart page Test " finished-at="2024-01-27T10:33:02 IST" duration-ms="3188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPage -->
+        <test-method signature="testCartPage()[pri:2, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareAddProductToCart@2f465398]" started-at="2024-01-27T10:33:02 IST" name="testCartPage" description="Add product to cart page Test" finished-at="2024-01-27T10:33:15 IST" duration-ms="13267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartPage -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareAddProductToCart@2f465398]" started-at="2024-01-27T10:33:15 IST" name="cleanUp" finished-at="2024-01-27T10:33:17 IST" duration-ms="1617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareAddProductToCart -->
+      <class name="MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareLogoutPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareLogoutPage@175b9425]" started-at="2024-01-27T10:34:29 IST" name="setUp" finished-at="2024-01-27T10:34:35 IST" duration-ms="5371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegisterPage()[pri:0, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareLogoutPage@175b9425]" started-at="2024-01-27T10:34:35 IST" name="testRegisterPage" description="Test Medicare Logout" finished-at="2024-01-27T10:34:38 IST" duration-ms="3613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPage -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareLogoutPage@175b9425]" started-at="2024-01-27T10:34:38 IST" name="cleanUp" finished-at="2024-01-27T10:34:39 IST" duration-ms="1112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareLogoutPage -->
+      <class name="MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareFilterProduct">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareFilterProduct@a1cdc6d]" started-at="2024-01-27T10:34:02 IST" name="setUp" finished-at="2024-01-27T10:34:07 IST" duration-ms="5211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegisterPage()[pri:1, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareFilterProduct@a1cdc6d]" started-at="2024-01-27T10:34:07 IST" name="testRegisterPage" description="Filter the products" finished-at="2024-01-27T10:34:10 IST" duration-ms="3030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPage -->
+        <test-method signature="Filtertheproduct()[pri:2, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareFilterProduct@a1cdc6d]" started-at="2024-01-27T10:34:10 IST" name="Filtertheproduct" description="Filter the products" finished-at="2024-01-27T10:34:28 IST" duration-ms="18116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Filtertheproduct -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareFilterProduct@a1cdc6d]" started-at="2024-01-27T10:34:28 IST" name="cleanUp" finished-at="2024-01-27T10:34:29 IST" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareFilterProduct -->
+      <class name="MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareRegisterPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareRegisterPage@313b2ea6]" started-at="2024-01-27T10:32:44 IST" name="setUp" finished-at="2024-01-27T10:32:49 IST" duration-ms="5559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegisterPage()[pri:0, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareRegisterPage@313b2ea6]" started-at="2024-01-27T10:32:49 IST" name="testRegisterPage" description="Test Medicare Register Page " finished-at="2024-01-27T10:32:53 IST" duration-ms="3132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPage -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareRegisterPage@313b2ea6]" started-at="2024-01-27T10:32:53 IST" name="cleanUp" finished-at="2024-01-27T10:32:53 IST" duration-ms="899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- MphasisATE_CapstoneProject_Selenium_TestNG_Medicare.MedicareRegisterPage -->
+    </test> <!-- Medicare Web Application Test -->
+  </suite> <!-- Mphasis ATE Capstone Project -->
+</testng-results>

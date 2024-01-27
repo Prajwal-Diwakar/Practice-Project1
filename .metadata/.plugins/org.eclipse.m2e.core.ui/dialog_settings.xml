@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Dell\eclipse-workspace\Phase3.FinalProjectRestAssured\src\test\java\Phase3\Assignment06\RestAssured\UserLogout.java"/>
 			<item value="C:\Users\Dell\eclipse-workspace\Phase3.RestAssuredLearningPractice\src\test\java\Phase3\RestAssuredLearningPractice\practice3_PostRequestAndResponse.java"/>
 			<item value="C:\Users\Dell\eclipse-workspace\phase2.learning.bdd.cucumber.27-12-2023"/>
 			<item value="C:\Users\Dell\eclipse-workspace\Phase3.RestAssuredLearningPractice\pom.xml"/>
@@ -37,6 +38,9 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="MphasisATE_CapstoneProject_Selenium_TestNG_Medicare"/>
+			<item value="MphasisATE_CapstoneProjectRestAssured_TestNG_Medicare"/>
+			<item value="MphasisATE_CapstoneProjectRestAssuredwithCucumber_Medicare"/>
 			<item value="Phase3.FinalProjectRestAssured"/>
 			<item value="Phase3.BDD_with_restAssured_using_Cucumber"/>
 			<item value="Phase3.PracticeProject3.RestAssured.User_Module_of_Application"/>
@@ -46,6 +50,9 @@
 			<item value="Phase3.RestAssuredLearningPractice"/>
 		</list>
 		<list key="groupId">
+			<item value="MphasisATE_CapstoneProject_Selenium_TestNG_Medicare"/>
+			<item value="MphasisATE_CapstoneProjectRestAssured_TestNG_Medicare"/>
+			<item value="MphasisATE_CapstoneProjectRestAssuredwithCucumber_Medicare"/>
 			<item value="Phase3.FinalProjectRestAssured"/>
 			<item value="Phase3.BDD_with_restAssured_using_Cucumber"/>
 			<item value="Phase3.PracticeProject3.RestAssured.User_Module_of_Application"/>
@@ -54,6 +61,9 @@
 			<item value="com.restassuredPractice"/>
 		</list>
 		<list key="artifactId">
+			<item value="MphasisATE_CapstoneProject_Selenium_TestNG_Medicare"/>
+			<item value="MphasisATE_CapstoneProjectRestAssured_TestNG_Medicare"/>
+			<item value="MphasisATE_CapstoneProjectRestAssuredwithCucumber_Medicare"/>
 			<item value="Phase3.FinalProjectRestAssured"/>
 			<item value="Phase3.BDD_with_restAssured_using_Cucumber"/>
 			<item value="Phase3.PracticeProject3.RestAssured.User_Module_of_Application"/>

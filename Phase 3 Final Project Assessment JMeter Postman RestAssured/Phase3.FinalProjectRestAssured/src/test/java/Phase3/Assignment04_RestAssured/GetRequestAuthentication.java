@@ -1,11 +1,8 @@
 package Phase3.Assignment04_RestAssured;
 
-import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.notNullValue;
-
 import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
-
 import Phase3.Assignment03_RestAssured.GetRequestUserName;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -67,12 +64,6 @@ public class GetRequestAuthentication {
 			this.username = username;
 			this.password = password;
 		}
-
-//		@Override
-//		public String toString() {
-//			return "User [email=" + email + ", password=" + password + "]";
-//		}
-		
 	}
 
 

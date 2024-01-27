@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Mphasis ATE Capstone Project Rest Assured]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Medicare(failed)">
+    <classes>
+      <class name="MphasisATE_CapstoneProjectRestAssured_TestNG_Medicare.GetProducts">
+        <methods>
+          <include name="testGetProducts"/>
+        </methods>
+      </class> <!-- MphasisATE_CapstoneProjectRestAssured_TestNG_Medicare.GetProducts -->
+    </classes>
+  </test> <!-- Medicare(failed) -->
+</suite> <!-- Failed suite [Mphasis ATE Capstone Project Rest Assured] -->

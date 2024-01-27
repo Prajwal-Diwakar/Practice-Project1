@@ -1,13 +1,8 @@
 package Phase3.Assignment03_RestAssured;
 
 import org.testng.annotations.Test;
-
-import Phase3.Assignment02_RestAssured.putRequestMethod1;
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
-
 import static org.hamcrest.CoreMatchers.equalTo;
-
 import org.apache.log4j.Logger;
 
 public class GetRequestUserName {
@@ -25,11 +20,11 @@ public class GetRequestUserName {
 			
 			RestAssured.given()
 			.when().get(base_url)
-			.then().statusCode(404);
-//			.and().assertThat()
-//			.body("username", equalTo("Uname001"))
-//			.and().body("email", equalTo("Positive@Attitude.com"))
-//			.and().body("userStatus", equalTo(1));
+			.then().statusCode(200)
+			.and().assertThat()
+			.body("username", equalTo("Uname001"))
+			.and().body("email", equalTo("Positive@Attitude.com"))
+			.and().body("userStatus", equalTo(1));
 		}
 		catch(Exception e) {
         	

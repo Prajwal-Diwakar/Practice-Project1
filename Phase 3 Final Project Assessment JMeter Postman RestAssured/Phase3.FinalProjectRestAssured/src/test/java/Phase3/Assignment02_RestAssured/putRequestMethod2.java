@@ -1,25 +1,12 @@
 package Phase3.Assignment02_RestAssured;
 
 import static org.hamcrest.CoreMatchers.equalTo;
-
 import java.util.HashMap;
-
 import org.apache.log4j.Logger;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
-import io.restassured.response.Response;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
-
-import java.util.HashMap;
-
-import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.*;
 
 public class putRequestMethod2 {
 	
